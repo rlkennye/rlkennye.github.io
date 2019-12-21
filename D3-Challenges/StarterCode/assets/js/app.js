@@ -411,6 +411,8 @@ d3.csv("/assets/data/data.csv").then((data, error) => {
       d.healthcare = +d.healthcare;
       d.smokes = +d.smokes;
     });
+    console.log(data);
+
 
     // Load data into acsData
     acsData = data;
