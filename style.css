@@ -1,72 +1,75 @@
-/*
- First External CSS Stylesheet
- */
-
-/* Styling for HTML elements */
 body {
-  padding: 0;
-  margin: 0;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 18px;
-  line-height: 150%;
-  color: #333;
-  background: #efeee7;
+    background: whitesmoke;
 }
-
-header {
-  background: #333;
+.navigation {
+    background-color: rgb(54, 51, 51);
 }
-
-h1 {
-  padding: 20px 0;
-  margin: 0;
-  margin-bottom: 20px;
-  font-size: 28px;
-  color: #eee;
-  text-align: center;
+.bio-img {
+    border-radius: 50%;
+    width: 75%;
+    margin: auto;
 }
-
-h2 {
-  font-size: 24px;
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
-
-a {
-  color: #d21034;
+.project {
+    /* width: 30%; */
+    float: left;
+    margin: 10px;
+    padding-bottom: 10px;
 }
-
-/* Selecting elements by class */
-.container {
-  width: 1024px;
-  margin: 0 auto;
+h3 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
 }
-
-/* Selecting elements by ID */
-#main-bio,
-#contact-info,
-#bio-image {
-  float: left;
+.centered {
+    margin: auto;
 }
-
-#figure {
-  position: relative;
+#bio-p {
+    width: 75%;
+    margin-top: 20px;
+    text-align: justify;
 }
-
-#bio-name {
-  position: absolute;
-  top: 150px;
-  left: 30px;
+#bio-links {
+    text-align: center;
+    margin-top: 10px;
 }
-
-#main-bio {
-  width: 70%;
+.footer {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    height:30px;
+    width:100%;
+    background: rgb(54, 51, 51);
 }
-
-#contact-info {
-  width: 30%;
+#icon-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
-#bio-image {
-  width: 200px;
-  height: 200px;
-  margin-right: 20px;
+.icon {
+    padding: 8px;
+    height: 45px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#main-nav {
+    background-color: whitesmoke;
+    color: rgb(54, 51, 51);
+    margin-left: 50px;
+}
+.project-description {
+    padding: 15px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    display: none;
+    color: rgb(54, 51, 51);
+}
+hr {
+    margin-top: 0px;
+    margin-bottom: 10px;
 }
